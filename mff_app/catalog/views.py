@@ -56,7 +56,7 @@ def get_films(request):
     slug = request.GET.get('slug')
     if slug:
         category = Category.objects.get(slug=slug)
-        films = category.film_set.all()
+        films = category.film_set.all().order_by('-created_at')
         return render(request,
                       'catalog/films_by_category.html',
                       {'category': category, 'films': films})
@@ -85,7 +85,7 @@ def get_films_by_category(request, category_slug):
     :template:`catalog/films_by_category.html`
     """
     category = Category.objects.get(slug=category_slug)
-    films = category.film_set.all()
+    films = category.film_set.all().order_by('-created_at')
     return render(request,
                   'catalog/films_by_category.html',
                   {'category': category, 'films': films})
