@@ -4,3 +4,5 @@ django_venv
 __pycache__
 *.pyc
 local_settings.py
+screenshorts
+README.md
