@@ -1,0 +1,6 @@
+.venv
+django_venv
+.idea
+__pycache__
+*.pyc
+local_settings.py
