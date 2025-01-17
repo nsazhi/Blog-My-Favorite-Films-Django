@@ -96,12 +96,6 @@ films.html — страница каталога всех фильмов, име
 films_by_category.html — страница каталога фильмов с фильтром по категории из параметров запроса.
 
 ## Установка проекта
-Создайте виртуальное окружение:
 
-`python -m venv newvenv`
 
-Активируйте его
 
-`newvenv\Scripts\activate`
-
-Установите необходимые модули из файла [requirements.txt](https://github.com/nsazhi/Blog-My-Favorite-Films-Django/blob/master/requirements.txt)
