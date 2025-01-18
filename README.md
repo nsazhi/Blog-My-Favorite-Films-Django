@@ -25,7 +25,7 @@
 Здесь отображаются карточки фильмов с информацией. В зависимости от параметров запроса, отображается весь каталог фильмов или с фильтрацией по категориям, а также меняется заголовок страницы.
 Также на странице есть кнопка выбора фильтра со ссылками, содержащими параметры.
 
-<img src="https://github.com/nsazhi/My-Favorite-Films-Blog/blob/master/screenshorts/catalog.jpg">
+<img src="https://github.com/nsazhi/My-Favorite-Films-Blog/blob/master/screenshorts/catalog1.jpg">
 
 Рис. 2. Страница полного каталога
 
