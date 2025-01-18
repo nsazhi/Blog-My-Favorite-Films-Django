@@ -95,6 +95,10 @@ films.html — страница каталога всех фильмов, име
 
 films_by_category.html — страница каталога фильмов с фильтром по категории из параметров запроса.
 
+### Файловая структура проекта
+
+<img src="https://github.com/nsazhi/thesis_django_app/blob/master/screenshorts/struc_dj.jpg">
+
 ## Установка проекта
 
 
